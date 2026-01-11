@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Galeri | Toko Pojok Pegatungan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--  NAVBAR  -->
+    <nav class="navbar-custom">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h3 class="logo">
+                <span id="typing-logo"></span><span class="typing-cursor">|</span>
+            </h3>
+
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="galeri.html" class="active">Galeri</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- GALERI -->
+    <section class="gallery-section py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2>Galeri Toko Pojok</h2>
+                <p class="subtitle">
+                    Dokumentasi produk dan aktivitas Toko Pojok Pegatungan.
+                </p>
+            </div>
+
+            <!-- FILTER -->
+            <div class="text-center mb-4 filter-buttons">
+                <button class="btn-filter active" data-filter="all">Semua</button>
+                <button class="btn-filter" data-filter="produk">Produk</button>
+                <button class="btn-filter" data-filter="testimoni">Testimoni</button>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- ITEM 1 -->
+                <div class="col-md-4 col-sm-6 gallery-item" data-category="produk">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="assets/sembako.jpg" class="card-img-top" alt="Produk 1">
+                            <span class="category-badge produk">Produk</span>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">sembako</h5>
+                            <p class="card-text">Lengkap, murah, dan selalu tersedia! Mulai dari beras, minyak, gula,
+                                hingga kebutuhan harian lainnya. Belanja praktis, stok aman setiap hari.</p>
+
+                            <button class="btn-view" data-type="produk">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ITEM 2 -->
+                <div class="col-md-4 col-sm-6 gallery-item" data-category="produk">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="assets/aqua.jpg" class="card-img-top" alt="Produk 2">
+                            <span class="category-badge produk">Aneka Minuman</span>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">aneka minuman</h5>
+                            <p class="card-text">Minuman lengkap, stok aman! Dusan hemat untuk acara,
+                                keluarga, atau usaha. Tinggal pesan, kami antar.</p>
+                            <button class="btn-view" data-type="produk">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ITEM 3 -->
+                <div class="col-md-4 col-sm-6 gallery-item" data-category="produk">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="assets/parcel.png" class="card-img-top" alt="Produk 3">
+                            <span class="category-badge produk">Pesan</span>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">parcel</h5>
+                            <p class="card-text">Parcel cantik, isi berkualitas, siap jadi hadiah berkesan.
+                                Cocok untuk Lebaran, kunjungan, atau bingkisan spesial orang tersayang.</p>
+                            <button class="btn-view" data-type="produk">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TESTIMONI 4 -->
+                <div class="col-md-4 col-sm-6 gallery-item" data-category="testimoni">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="assets/service1.png" class="card-img-top" alt="Testimoni">
+                            <span class="category-badge testimoni">Testimoni</span>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Testimoni pelanggan</h5>
+                            <p class="card-text">Ribuan pelanggan puas berbelanja di toko kami. Pelayanan cepat,
+                                harga bersahabat, dan kualitas terjamin.</p>
+                            <button class="btn-view" data-type="testimoni">Lihat</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ITEM 5 -->
+                <div class="col-md-4 col-sm-6 gallery-item" data-category="produk">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="assets/beras-zakat.png" class="card-img-top" alt="Produk 3">
+                            <span class="category-badge produk">Produk</span>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">paket beras zakat</h5>
+                            <p class="card-text">Paket beras zakat berkualitas, bersih dan layak dibagikan.
+                                Praktis, aman, dan siap antar ke alamat tujuan.</p>
+                            <button class="btn-view" data-type="produk">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--  FOOTER  -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <h3 class="footer-title">Toko Pojok</h3>
+                    <p class="footer-text">
+                        Toko sembako Pegatungan yang menyediakan kebutuhan pokok
+                        harian dengan harga terjangkau dan pelayanan ramah.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <h5 class="footer-title">Menu</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <h5 class="footer-title">BANTUAN</h5>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Tutorial Pesan via WA</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Laporkan Masalah</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center pt-4 border-top">
+                <p class="mb-0">
+                    © 2025 Toko Pojok Pegatungan | Sembako Lengkap & Terpercaya
+                </p>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+
+</html>
